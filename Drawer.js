@@ -61,20 +61,20 @@ const DrawerContent = props => {
                         resizeMode="center"
                         style={styles.avatar}
                     />
-                    <Text style={{ color: 'white', fontSize: 15 }}>
+                    <Text style={{ color: 'white', fontSize: 15, alignSelf: 'center' }}>
                         Renato Moura
                     </Text>
-                    <Text style={{ color: 'white', fontSize: 10 }}>
+                    <Text style={{ color: 'white', fontSize: 10, alignSelf: 'center' }}>
                         renatomateusx@gmail.com
                     </Text>
-                    <Text style={{ color: 'white', fontSize: 9 }}>
+                    <Text style={{ color: 'white', fontSize: 9, alignSelf: 'center' }}>
                         +55 71 9 9130-6561
                     </Text>
                 </View>
-                <View style={{ marginTop: 20, marginVertical: 90, marginTop: 90}}>
+                <View style={{ marginTop: 20, marginVertical: 90, marginTop: 90 }}>
                     <DrawerItem
                         label="Dashboard"
-                        labelStyle={{ color: 'white', marginLeft: 0}}
+                        labelStyle={{ color: 'white', marginLeft: 0 }}
                         style={styles.drawerItem}
                         onPress={() => props.navigation.navigate('Dashboard')}
                         icon={() => <AntDesign name="dashboard" color="white" size={16} />}
@@ -95,11 +95,11 @@ const DrawerContent = props => {
                     />
                 </View>
             </View>
-            <View style={{flex: 1}}>
+            <View style={{ flex: 1 }}>
                 <DrawerItem
                     label="Logout"
                     labelStyle={{ color: 'white' }}
-                    style={{marginVertical: 20}}
+                    style={{ marginVertical: 20 }}
                     icon={() => <AntDesign name="logout" color="white" size={16} />}
                     onPress={() => alert('Are your sure to logout?')}
                 />
