@@ -9,10 +9,12 @@ phone: +55 71 9 91306561 (whatsapp)
 
 if you need anything please let me know.
 
-﻿# Features
+# Features
+ 
 * Animated Styles
 * Linear Gradient
 * Navigation 5
 
-﻿# Preview
+# Preview
+ 
 ![Screenshot](gifDrawerAnimated.gif)
